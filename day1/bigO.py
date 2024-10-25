@@ -12,7 +12,7 @@ def findNemo(array):
      if i == "nemo":
         print("found nemo")
 
-print(findNemo(nemo))
+# print(findNemo(nemo))
 
 #<--------------------------------------end------------------------------------>
 
@@ -61,7 +61,18 @@ def compressbox(boxes):
 
 
 #<--------------------------------------end------------------------------------>
+arr = [1,2,3,4,5]
+result =[]
 
+def pair(arr):
+   for i in range(len(arr)):
+      for j in range(len(arr)):
+         print(arr[i],arr[j])
+   print(result)      
+
+pair(arr)
+      
+      
 
 
 
